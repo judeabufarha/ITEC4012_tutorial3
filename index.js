@@ -58,6 +58,7 @@ app.get('/api/cats', (req, res) =>{
     //call to db 
     //return dummy data 
     const cats = ["British Shorthair", "Ragdoll", "Russian Blue"];
+    //sending a response should be in JSON
     res.send(JSON.stringify(cats));
 });
 
